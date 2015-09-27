@@ -22,7 +22,7 @@ def data = new Date()
 Data e hora atual = <%= data %><br>
 <br>
 Pretendo atualizar essa app de forma pessoal para que eu não perca mais o contato
- com o java atraves do Grails. Claudio - 27/09/2015. 
+ com o java atraves do Grails. Claudio - 27/09/2015.
 
 
 <div id="site">
