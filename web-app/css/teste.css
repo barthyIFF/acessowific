@@ -1,0 +1,186 @@
+/*TESTANDO O CSS */
+.panel-group{
+	background:	white;
+	color: black;
+}
+.panel{
+background: white;
+broder:dotted red;
+}
+
+.panel-heading{
+background: #43CD80;
+	color: black;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;	
+
+}
+ .panel-heading>h4>a:focus,.panel-heading>h4>a:hover{
+ 	text-decoration:none;
+ 	background-color:#43CD80;   
+ 	color:white;
+ 	}
+ .panel-heading>h4>p{
+ 	color:black;
+ 	text-align:left;
+ 	}	 
+.panel-title{
+	font-size:20px;
+
+}
+ .panel-title>h4>a:focus,.panel-title>h4:a:hover{
+ 	text-decoration:none;
+ 	background-color:#54FF9F;   
+ 	color:white;
+ 	}
+ .panel-body{
+ 	border-style:ridge;
+ }	
+.link-normal {
+	background: #43CD80;
+	color: black;
+	margin: 5px;
+	padding: 20px;
+	font-size:20px;
+	text-align: center;
+	/*border: dotted green; */
+	/*background-image: url(../images/img02.png);
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+.link-normal a:houver{
+ background-color: 	white;/*#9AFF9A; ESTÁ SEM EFEITO*/
+}	
+.menu1{
+  /* border:dotted red; */
+   margin: 0 auto;
+}
+.menu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*border:dotted black; */
+ }
+
+.menu1 li {
+	/*border: dotted blue; */
+	margin:0px;
+	padding:0px;
+
+ }
+
+#site{
+	background:white;
+	margin:0px;
+}
+
+#conteudo{
+	margin:10px;
+}
+
+#status-login{
+	backgroud:#eee;
+	padding:20px;
+	text-align: right;
+	/*border: 1px solid black; */
+	margin:0;
+	background-image: url(../images/banner-gray.png);
+}
+
+
+ul{
+	background:white;
+}
+
+
+.principal{
+   float: left;
+
+   margin:0;
+}
+#cabecalho{
+	background-color: #eee;
+}
+#grailsLogo{
+	background-color: black;
+	padding:10px;
+	margin:0;
+	
+}
+#status-login{
+	backgroud:#eee;
+	padding:20px;
+	text-align: right;
+	/*border: 1px solid black; */
+	margin:0;
+	background-image: url(../images/banner-gray.png);
+}
+.space{
+	text-align:center;
+	float: left;
+	padding:10px;
+}
+#copyright{
+    border-style: solid;
+    border-width: 0px 0px 7px 0px ;
+    border-color:gray;
+    padding:0px 0px 10px 0px;
+}
+#rodape{
+	background: #000;
+	color: gray;
+	clear: both;
+	text-align:center;
+	padding:10px;
+}
+
+/*NAVEGAÇÃO */
+ .nav{
+ 	margin-bottom:0;
+ 	padding-left:0;
+ 	list-style:none;
+ 	}
+
+ .nav>li{
+ 	position:relative;
+ 	display:block; 
+ }
+ .nav>li>a{
+ 	position:relative;
+ 	display:block; 
+ 	padding: 10px; /*10px 15px */
+ }
+ /*A COR DE FUNDO DO MENU É DEFINIDA AQUI */
+ .nav>li>a:focus,.nav>li>a:hover{
+ 	text-decoration:none;
+ 	background-color: #43CD80; /*#54FF9F;*/ 
+ 	color:white; 
+ 	} 
+ .nav>li.disabled>a{
+ 	color:#777;
+ 	}
+ .nav>li.disabled>a:focus,.nav>li.disabled>a:hover{
+ 	color:#777;
+ 	text-decoration:none;
+ 	background-color:transparent;
+ 	cursor:not-allowed; 
+ 	}
+ .nav .open>a,.nav .open>a:focus,.nav .open>a:hover{
+ 	background-color:#eee;
+ 	border-color:#337ab7; 
+ 	}
+ .nav .nav-divider{
+ 	height:1px;
+ 	margin:9px 0;
+ 	overflow:hidden;
+ 	background-color:#e5e5e5 
+ 	}
+ .nav>li>a>img{
+ 	max-width:none 
+ }
+
+
+	
