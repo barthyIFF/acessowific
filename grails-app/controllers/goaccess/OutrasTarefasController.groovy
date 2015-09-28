@@ -7,6 +7,7 @@ import grails.plugin.springsecurity.annotation.Secured
 class OutrasTarefasController {
 
 	//@Secured('ROLE_ADMIN')
+	@Secured('IS_AUTHENTICATED_ANONYMOUSLY')
 	def index(){		
 	}
 	
