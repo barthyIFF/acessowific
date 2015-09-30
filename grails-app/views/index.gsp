@@ -23,9 +23,18 @@ Data e hora atual = <%= data %><br>
 <br>
 Pretendo atualizar essa app de forma pessoal para que eu não perca mais o contato
  com o java atraves do Grails. Claudio - 27/09/2015.<br>
+ <br> 
+ Penultima atualização: 28/09/2015<br>
+ Ultima atualização: 30/09/2015<br>
+ Penultima quantidade de dias sem mexer: 1<br>
+ Ultima quantidade de dias sem mexer: 2 (Colocar isso automatico e salvo no BD)<br>
+ Acao atual: colocando horas no contador<br>
+- Hora colocada, mas os minutos estão ficando maiores do que 60 
  <br>
- Ultima atualização: 28/09/2015
- Ultima quantidade de dias sem mexer: 1
+Proximas acoes:<br>
+- Substituir o campo do form por um label grande na pagina<br>
+- Fazer varios contadores
+- Parar o contador e reiniciar-lo   
  
 
 
